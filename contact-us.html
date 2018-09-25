@@ -3,14 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="Sashwat K - Personal CV website" />
-		<meta name="author" content="Sashwat K" />
+		<meta name="description" content="Profyl - Personal Vcard Resume HTML Template" />
+		<meta name="author" content="iqonicthemes.in" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-		<title>Sashwat K - Home</title>
-		<!-- Assests CSS (includes bootstarp, awsome fonts, themify icons, google fonts and many more.) -->
+		<title>Profyl - Personal Vcard Resume HTML Template</title>
 		<link rel="shortcut icon" href="images/favicon.ico" />
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;Raleway:400,500,600,700,800" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/themify-icons.css">
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
@@ -41,7 +39,7 @@
 							</button>
 							<div class="collapse navbar-collapse" id="navbarSupportedContent">
 								<ul class="navbar-nav mr-auto w-100 justify-content-end">
-									<li class="nav-item active">
+									<li class="nav-item">
 										<a class="nav-link" data-type="page-transition" href="index.html">Home</a>
 									</li>
 									<li class="nav-item">
@@ -59,7 +57,7 @@
 									<li class="nav-item">
 										<a class="nav-link" data-type="page-transition" href="blog.html">blog</a>
 									</li>
-									<li class="nav-item">
+									<li class="nav-item active">
 										<a class="nav-link" data-type="page-transition" href="contact-us.html">contact</a>
 									</li>
 								</ul>
@@ -70,7 +68,7 @@
 			</div>
 		</header>
 		<div class="main-container">
-			<section class="me-home wrapper">
+			<section class="iq-contact wrapper">
 				<div class="container-fluid h-100">
 					<div class="row row-eq-height h-100">
 						<div class="col-md-3 purple-bg">
@@ -82,19 +80,55 @@
 							</div>
 						</div>
 						<div class="col-md-9 main-content align-self-center">
-							<div id="boxscroll" class="iq-home">
-								<div class="home-deta iq-mt-90">
+							<div id="boxscroll" class="inner-box">
+								<div class="iq-plr-40">
 									<div class="row">
-										<div class="col-md-4">
-											<div class="boder-img">
-												<img src="images/me.jpg" class="img-fluid" alt="#">
+										<div class="col-md-12">
+											<div class="main-title iq-mb-15">
+												<small>My Contact</small>
+												<h1 class="display-4 iq-tw-8 iq-font-purple">Contact Me</h1>
 											</div>
 										</div>
-										<div class="col-md-8 content-deta">
-											<h2 class="iq-tw-8 ">Hello,<br>I Am Sashwat K</h2>
-											<div id="typer"></div>
-											<p class="lead iq-tw-4">I am a student, currently studying Masters in Computer Applications (MCA) at College of Engineering Trivandrum (CET). I am also a huge linux enthusiast. I first started by craze for linux from Ubuntu aand ended up using Fedora. My first laptop was Lenovo Y50-70. Now, my present daily driver is Apple Macbook Pro.</p>
-											<a class="button iq-mt-30" href="about-us.html">Download my CV</a>
+										<div class="col-md-4">
+											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.840108181602!2d144.95373631539215!3d-37.8172139797516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1497005461921" style="border:0" allowfullscreen></iframe>
+										</div>
+										<div class="col-md-8">
+											<div class="row">
+												<div class="col-md-12">
+													<h3 class="title iq-tw-8 text-uppercase iq-mt-0">Get in Touch</h3>
+													<ul class="contact-info">
+														<li><i class="ti-location-pin"></i> <p>327 Darshan Nagar, Kudapannakunnu</p> </li>
+														<li><i class="ti-marker-alt"></i> <p>sashwat0001@gmail.com</p></li>
+														<li><i class="ti-mobile"></i> <p>(+91)-8281962557 </p></li>
+														<li><i class="ti-marker-alt"></i> <p>flsashwat@gmail.com</p></li>
+													</ul>
+												</div>
+											</div>
+											<div class="iq-get-in">
+											 <div id="formmessage">Success/Error Message Goes Here</div>
+												<form class="form-horizontal" id="contactform" method="post" action="https://formspree.io/sashwat0001@gmail.com">
+													<div class="contact-form row">
+														<div class="section-field col-md-4">
+															<input id="name" type="text" placeholder="Name*" name="name" required>
+														</div>
+														<div class="section-field col-md-4">
+															<input type="email" placeholder="Email*" name="email" required>
+														</div>
+														<div class="section-field col-md-4">
+															<input type="number" placeholder="Phone*" name="phone" required>
+														</div>
+														<div class="section-field textarea col-md-12">
+															<textarea class="input-message" placeholder="Comment*" rows="5" name="message" required></textarea>
+														</div>
+														<div class="col-md-12">
+															<input type="hidden" name="action" value="sendEmail" />
+															<button id="submit" name="submit" type="submit" value="Send" class="button iq-mt-30">Send Message</button>
+														</div>
+													</div>
+												</form>
+												<div id="ajaxloader" style="display:none"><img class="center-block mt-30 mb-30" src="images/ajax-loader.html" alt="#">
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -108,7 +142,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-3 purple-bg">
-						<div class="footer-copyright text-white">Copyright @ <span id="copyright"> <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span> <a class="text-white" href="#">Profyl.</a></div>
+						<div class="footer-copyright text-white">Copyright @ <span id="copyright"> <script data-cfasync="false" src="https://iqonicthemes.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span> <a class="text-white" href="#">Profyl.</a></div>
 					</div>
 					<div class="col-md-9">
 						<ul class="follow-us pull-right">
