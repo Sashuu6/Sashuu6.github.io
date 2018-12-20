@@ -15,4 +15,4 @@ Note:-
 To make changes to designation at home.
 ![Designation](/docs/desig.png)
 
-Goto 
+For making changes in them, edit custon.js line 10 present at js folder.
