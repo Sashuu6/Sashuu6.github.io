@@ -1,6 +1,10 @@
 # Sashuu6.github.io
 
-This is my current CV website. The website uses HTML, CSS and JS. The site has:-
+This is my current CV website. The website uses HTML, CSS and JS. 
+
+![Home](/docs/home.png)
+
+The site has:-
 1. Home
 2. About me
 3. Resume
