@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: sashuu6.github.io
-Token: 5217310bc5bdaa2225e2bee010f2e7bbdcc4ab33d67be199228d892baabfb596
